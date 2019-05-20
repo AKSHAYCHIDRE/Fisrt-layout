@@ -1,0 +1,883 @@
+
+/*------------------------------------*\
+  Google font 
+
+  font-family:  'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+\*------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	  -ms-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	      box-sizing: border-box;
+}
+	
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-fluid {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear:after {
+  content: '';
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.grey-c {
+  color: #999;
+} 
+.white-c {
+  color: #fff;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+h3 {
+  color:  #333;
+  font-size:  36px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+h5 {
+  color: #333;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+}
+h4 {
+  color: #333;
+  font-size: 21px;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+.par-text {
+  color: #999;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family:  'Lato', sans-serif;
+}
+.button {
+  border: 0;
+  color: #fff;
+  margin: 0 auto;
+  display: table;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 38px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: #11d491;
+  font-family: 'Lato', sans-serif;
+}
+.button:hover {
+  background-color: #15b17b;
+}
+.title-section .par-text {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 4px;
+}
+.icon-section {
+  height: 80px;
+  width: 80px;
+  display: table;
+  color: #11D491;
+  font-size:  25px;
+  border: 2px solid #EAEAEA;
+  -webkit-border-radius: 50%;
+	 -moz-border-radius: 50%;
+	  -ms-border-radius: 50%;
+	   -o-border-radius: 50%;
+		  border-radius: 50%;
+}
+.icon-section i {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.top-icon-section {
+  right: 2%;
+  bottom: 1.5%;
+  position: fixed;
+}
+.top-icon-section a {
+  font-size: 25px;
+  color: #fc636b;
+}
+/*------------------------------------*\
+  Header section start here 
+\*------------------------------------*/
+
+.header {
+  padding: 15px 0;
+  background-color: #fc636b;
+}
+.nav-menu {
+  display: table;
+  min-height: 40px;
+}
+.nav-menu ul {
+  list-style: none;
+  text-align: center;
+  vertical-align: middle;
+}
+.nav-menu ul > li {
+  margin: 0 15px;
+  display: inline-block;
+}
+.nav-menu li > a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  -webkit-transition: 0.5s all;
+     -moz-transition: 0.5s all;
+	  -ms-transition: 0.5s all;
+	   -o-transition: 0.5s all;
+	      transition: 0.5s all;
+}
+#header .nav-menu ul .sub-menu {
+  padding: 10px;
+  display: none;
+  background: #333;
+  max-width: 160px;
+  position:absolute;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+       -o-border-radius: 4px;
+}
+.nav-menu ul .sub-menu li {
+  width: 170px;
+  margin: 10px 0;
+  display: block;
+  text-align: left;
+
+}
+.nav-menu ul .sub-menu li a {
+  font-size:14px;
+}
+.nav-menu li.active,
+.nav-menu li a:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.nav-menu li button {
+  cursor: pointer;
+  padding: 9px 20px;
+  border: 1px solid #ffffff73;
+  background-color: transparent;
+  -webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+	   -o-border-radius: 4px;
+	      border-radius: 4px;
+}
+.nav-menu ul li button:hover {
+  border-color: #fff;
+}
+.nav-menu ul button span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;	
+  font-family: 'Lato', sans-serif;
+}
+
+/*------------------------------------*\
+	 Banner section css here 
+\*------------------------------------*/
+
+.banner {
+  background: url(../images/banner.jpg) no-repeat;
+  -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	  -ms-background-size: cover;
+	   -o-background-size: cover;
+		  background-size: cover;
+}
+.banner .banner-text {
+  padding: 200px 0;
+}
+.banner .banner-text h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
+.banner .banner-text .par-text {
+  width: 50%;
+  color: #fff;
+  text-align: left;
+  margin: 5px 0 15px;
+}
+.banner .banner-text .from-fields {
+  display: flex;
+  max-width: 420px;
+}
+.banner .from-fields input {
+  width: 70%;
+  border: 0px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 11px 12px;
+  font-family: 'Lato', sans-serif;
+}
+.banner .banner-text button {
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: -4px;	
+  padding: 11px 20px;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+  background-color: #11d491;
+  font-family: 'Lato', sans-serif;
+}
+.banner button:hover {
+  background-color: #15b17b;
+}
+.transport-services {
+  width: 80%;
+  margin: 0 auto;
+  -webkit-transform: translate(0,-50px);
+	 -moz-transform: translate(0,-50px);
+	  -ms-transform: translate(0,-50px);
+	   -o-transform: translate(0,-50px);
+	      transform: translate(0,-50px);
+}
+.transport-services .service-img {
+  background-color: #fff;
+  -webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	  -ms-border-radius: 4px;
+	   -o-border-radius: 4px;
+	      border-radius: 4px;
+}
+.transport-services img {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #dee2e6;
+  -webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	  -ms-border-radius: 4px;
+	   -o-border-radius: 4px;
+	      border-radius: 4px;
+}
+.transport-services .road-freight,
+.transport-services .sea-freight,
+.transport-services .air-freight {
+  display: inline-block;
+  width: 32.99%;
+  padding: 0 15px;
+}
+
+/*------------------------------------*\
+	 What we are section css here 
+\*------------------------------------*/
+
+.what-we-are {
+  padding-bottom: 110px;
+}
+.offer-section {
+  margin: 70px 0;
+}
+.what-we-are .subway-freight,
+.what-we-are .ship-freight,
+.what-we-are .plane-freight {
+  display: inline-block;
+  width: 32.33%;
+  padding: 0 5px;	
+}
+
+.what-we-are .offer-content-section {
+  width: 70%;
+}
+.what-we-are .offer-content-section .par-text {
+  padding-top: 4px;
+  text-align: left;
+}
+ 
+/*------------------------------------*\
+	 What we provide section css here 
+\*------------------------------------*/
+
+.what-we-provide {
+  background: url(../images/what_we_provide_banner.jpg) no-repeat;
+  padding: 100px 0;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -ms-background-size: cover;
+       -o-background-size: cover;
+		  background-size: cover;
+}
+.what-we-provide-section {
+	padding-left: 30px;
+}
+.title h3 {
+  text-align: left;
+  color: #fff;
+}
+.title span {
+  color: #fc636b;
+  letter-spacing: 1px;
+  font-family:  'Lato', sans-serif;
+}
+.what-we-provide .title {
+  margin-bottom: 40px;
+} 
+.what-we-provide-part {
+  max-width: 50%;
+}
+.what-we-provide-part h4 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.what-we-provide-part .par-text {
+  color: #bfbfbf;
+  text-align: left;
+}
+.what-we-provide-section .button {
+  display: inline-block;
+}
+.what-we-provide-part .provider-cart {
+  width: 49%;
+  padding-right:10px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+/*------------------------------------*\
+  Portfolio section start here 
+\*------------------------------------*/
+
+.portfolio {
+  padding: 80px 0;
+}
+.portfolio-section {
+  padding: 80px 0 0;
+}
+.portfolio-section .portfolio-card {
+  margin: 10px;
+  width: 30.33%;
+  transition: 0.5s all;
+  display: inline-block;
+}
+.portfolio-section .portfolio-card:hover {
+  -webkit-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+	 -moz-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+	  -ms-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+	   -o-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+		  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
+}
+.portfolio-section img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+.portfolio-section .content {
+  padding: 18px;
+  background-color: #eee;
+}
+.portfolio-section h5 {
+  color: #fc636b;
+  margin-top: 3px;
+  text-align: center;
+}
+
+/*------------------------------------*\
+  Industry Solutions start css  here 
+\*------------------------------------*/
+
+.industry-solutions {
+  padding-bottom: 50px;
+}
+.industry-solutions .image-section {
+  width: 49%;
+  display: inline-block;
+}
+.industry-solutions img {
+  width: 100%;
+}
+.industry-solutions .title {
+  margin-bottom: 50px;
+}
+.industry-solutions .industry-content {
+  width: 49%;
+  padding-left: 30px;
+  vertical-align: top;
+  display: inline-block;
+} 
+.industry-solutions .industry-content h3 {
+  color: #333;
+}
+.industry-solutions .first-industry, 
+.industry-solutions .second-industry
+ {
+  margin-bottom: 30px;
+}
+.industry-solutions .content {
+  margin-left: 30px;
+}
+.industry-solutions .content h4 {
+  margin-bottom: 5px;
+}
+
+/*------------------------------------*\
+  #Footer section start css here 
+\*------------------------------------*/
+
+#footer {
+  background-color: #17181b;
+}
+#footer .footer-content {
+  padding: 80px 0;
+}
+#footer .freight {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family:  'Lato', sans-serif;
+}
+#footer .freight {
+  width: 32.33%;
+  display: inline-block;
+}
+#footer .navigation,
+#footer .links {
+  width: 21.44%;
+  vertical-align: top;
+  display: inline-block;
+}
+#footer .freight a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+#footer .freight a.mail{
+	text-decoration: underline;
+}
+#footer .footer-logo {
+  margin-bottom: 18px;
+}
+#footer h5 {
+  color: #fff;
+  text-align: left;
+  margin: 0 0 12px 0;
+}
+#footer hr{
+  width: 160px;
+  border-top:1px solid rgba(255, 255, 255, 0.36);
+}
+
+#footer .par-text {
+  color: #fff;
+  text-align: left;
+}
+#footer ul {
+  list-style: none;
+  padding-top: 20px;
+} 
+#footer li a {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1px;	
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+#footer a:hover {
+  color: #11d491;
+}
+.bottom-footer {
+  padding: 20px 0;
+  background-color: #11d491;
+}
+#footer .bottom-footer .par-text {
+  text-align:center;
+}
+#footer .bottom-footer a:hover{
+  color:#fc636b;
+}
+.bottom-footer .par-text,
+.bottom-footer a
+ {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;	
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+/*------------------------------------*\
+  media query start css here 
+\*------------------------------------*/
+
+@media(max-width:1169px) {
+
+	/* industry section css  here */
+	
+	.industry-solutions .title {
+	  margin-bottom: 15px;
+	}
+	.industry-solutions .first-industry, 
+	.industry-solutions .second-industry {
+	  margin-bottom: 15px;
+	}
+	.industry-content .icon-section {
+	  float: none;
+	  margin-bottom: 8px;
+	}
+	.industry-solutions .content h4 {
+	  margin-bottom: 0;
+	}
+	.industry-solutions .content {
+	  margin-left: 0px;
+	}
+	/* #footer section css here */
+	#footer {
+	  padding: 40px;
+	}
+}
+
+@media(max-width:999px) {
+	
+	/* header section css here */
+
+	header .logo {
+	  float: none;
+	  width: 100%;
+	  text-align: center;
+	}
+	header .menu-container {
+	  float: none;
+	}
+	header .menu-container .nav-menu {
+	  width: 100%;
+	  text-align: center;
+	}
+	header .menu-container ul li {
+	  margin: 0 8px;
+	}
+	
+	/* banner section css here */
+	
+	.transport-services {
+	  width: 100%;
+	  padding: 0 10px;
+	}
+	.transport-services .road-freight, 
+	.sea-freight, .air-freight {
+		padding: 0 7px;
+	}
+	
+	/* offer section css here */
+	
+	.offer-section .icon-section {
+	  float: none;
+	  margin: 0 auto 8px;
+	}
+	.offer-section .offer-content-section,
+	.offer-section .offer-content-section h4,
+	.offer-section .offer-content-section .par-text {
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* what we are provide */
+
+	.what-we-provide-part {
+	  max-width: 80%;
+	}
+
+	/* industry section css here */
+
+	.industry-solutions .image-section {
+	  width: 100%;
+	}
+	.industry-solutions .industry-content {
+	  width: 100%;
+	  padding-top: 30px;
+	}
+	.industry-solutions .title {
+	  margin-bottom: 30px;
+	}
+	.industry-content .icon-section {
+	  float: left;
+	}
+	.industry-solutions .content {
+	  padding-left: 60px;
+	}
+
+	/* #Footer section css here */
+
+	#footer {
+	  padding: 30px 0 0 0;
+	}
+	#footer .freight {
+	  width: 30.33%;
+	}
+	#footer .navigation, 
+	#footer .links {
+	  width: 22.66%;
+	}
+}
+
+@media(max-width:808px) {
+
+	/* Banner section css here */
+	
+	.transport-services {
+	  -webkit-transform: translate(0,50px);
+		 -moz-transform: translate(0,50px);
+		  -ms-transform: translate(0,50px);
+		   -o-transform: translate(0,50px);
+		      transform: translate(0,50px);
+	}
+	.transport-services .road-freight, 
+	.transport-services .sea-freight, 
+	.transport-services .air-freight {
+	  padding: 0 15px;
+	  width: 49.66%;
+	}
+	.transport-services .air-freight {
+	  display: none;
+	}
+
+	/* What-we-are section css here  */
+
+	.what-we-are {
+	  padding-top: 80px;
+	}
+
+	/* Portfolio section css here */
+
+	.portfolio-section .portfolio-card {
+	  width: 29.33%;
+	  margin: 12px;
+	}
+
+	/* #Footer section css here */
+
+	#footer .freight {
+	  width: 48%;
+	}
+	#footer .navigation, 
+	#footer .links {
+	  width: 48%;
+	  margin-bottom: 20px;
+	}
+}
+
+@media(max-width:768px) {
+
+	/* Header section css here */
+
+	header .logo {
+	  float: none;
+	  text-align: left;
+	}
+
+	/*  Banner section css here */
+
+	.banner .banner-text {
+	  padding: 80px 0;
+	}
+	.banner .banner-text h1 {
+	  font-size: 32px;
+	}
+	.banner .banner-text .par-text {
+	  font-size: 12px;
+	}
+	.banner .banner-text form {
+	  max-width: 350px;
+	}
+	.transport-services {
+	  -webkit-transform: translate(0,30px);
+    	 -moz-transform: translate(0,30px);
+    	  -ms-transform: translate(0,30px);
+    	   -o-transform: translate(0,30px);
+    		  transform: translate(0,30px);
+	}
+	.transport-services .road-freight, 
+	.transport-services .sea-freight, 
+	.transport-services .air-freight {
+	  width: 100%;
+	  padding-bottom: 10px;
+	}
+
+	/* What we are offer  section css here  */
+
+	.what-we-are {
+	  padding-top: 50px;
+	}
+	.title-section .par-text {
+	  width: 100%;
+	}
+	.offer-section {
+	  margin: 30px 0;
+	}
+	.what-we-are .subway-freight, 
+	.what-we-are .ship-freight, 
+	.what-we-are .plane-freight {
+	  width: 100%;
+	  margin-bottom: 20px;
+
+	}
+
+	/* We are provide section css here */
+
+	.what-we-provide {
+	  padding: 40px 0;
+	}
+	.what-we-provide-part {
+	  max-width: 100%;
+	  margin-bottom: 20px;
+	}
+	.what-we-provide .title {
+	  margin-bottom: 25px;
+	}
+	.what-we-provide-part .provider-cart {
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+	/* Portfolio section css here */
+
+	.portfolio {
+	  padding: 40px 0;
+	}
+	.portfolio-section {
+	  padding: 30px 0 0;
+	}
+	.portfolio-section .portfolio-card {
+	  width: 100%;
+	  margin: 15px 0;
+	}
+
+	/* Industry section css here */
+
+	.industry-solutions {
+	  padding-bottom: 10px;
+	}
+	.industry-solutions .industry-content {
+	  padding-left: 0px;
+	}
+	#footer .freight {
+	  width: 100%;
+	  margin-bottom: 20px;
+	}
+	#footer .navigation,
+	#footer .links {
+	  width: 100%;
+	}
+	#footer .footer-content{
+		padding:0;
+	}
+}
+
+@media(max-width:548px) {
+	.par-text {
+	  font-size: 12px;
+	}
+	h3 {
+	  font-size: 26px;
+	}
+	h4 {
+	  font-size: 19px;
+	}
+
+	/* Banner section css here */
+
+	.banner .banner-text h1 {
+	  font-size: 26px;
+	}
+	.banner .banner-text .par-text {
+	  width: 80%;
+	}
+	.transport-services .road-freight, 
+	.transport-services .sea-freight, 
+	.transport-services .air-freight {
+	  padding: 0 5px;
+	}
+	.transport-services .air-freight {
+	  display: block;
+	}
+	.banner .banner-text form {
+	  max-width: 300px;
+	}
+
+	/* Industry section css here */
+
+	.industry-solutions .industry-content {
+	  padding-top: 20px;
+	}
+	.industry-content .icon-section {
+	  float: none;
+	  margin: 0 auto;
+	}
+	.industry-solutions .content {
+	  padding-left: 0;
+	  float: none;
+	}
+	.industry-content .par-text,
+	.industry-content h4,
+	.industry-content h3,
+	.industry-content span {
+	  display: block;
+	  text-align: center;
+	}
+	
+	/* #Footer section css here */
+
+	#footer {
+	  padding: 30px 0 0 0;
+	}
+	.footer ul li a {
+	  display: inline-block;
+	}
+}
