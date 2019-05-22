@@ -5,18 +5,16 @@
 	<link rel="icon"  href="images/favicon.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet"><!-- Google font lato -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i" rel="stylesheet"><!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"><!-- Font awesome cdn link -->
-	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"><!-- Font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/navigation.css">
 	<link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
-    </script>
   </head>
 <body>
 	<main><!--  Main tag start here -->
-		<header id="header" class="header"><!--  Header section start here  -->
+		<header id="header"><!--  Header section start here  -->
 			<div class="container clear">
 				<div class="logo float-left"><!-- Logo section -->
 					<a href="#">
@@ -28,14 +26,12 @@
 						<span class="fa fa-bars"></span>
 					</button>
 					<nav class="manu nav-menu">
-						<ul class="">
+						<ul>
 			                <li class="active"><a href="#">Home</a></li>
 			                <li><a href="#">About Us</a></li>
 			                <li><a href="#">Portfolio</a></li>
 			                <li>
-			                	<a href="#">
-			                		Dropdown
-			               		</a>
+			                	<a href="#">Dropdown</a>
 			               		 <ul class="sub-menu">
 			               		 	<li><a href="#">Blog</a></li>
 			               		 	<li><a href="#">Single Page</a></li>
@@ -45,12 +41,12 @@
 			                </li>
 			                <li><a href="#">Contact Us</a></li>
 			                <li class="inline">
-			                	<button>
+			                	<button class="nav-button">
 			                		<span>LOGIN</span>
 			                	</button>
 			                </li>
 			                <li class="inline">
-			                	<button>
+			                	<button class="nav-button">
 			                		<span>REGISTER</span>
 			                	</button>
 			                </li>
@@ -59,7 +55,7 @@
 				</div><!-- Navigation section end here -->
 			</div>
 		</header><!--  Header section end here  -->
-		<section class="banner">
+		<section class="banner"> <!-- Banner section start here -->
 			<div class="container">
 				<div class="banner-text">
 					<h1>
@@ -73,13 +69,13 @@
 					<form class="from-fields">
 						<input type="text" name="search" class="search-input" placeholder="Enter Your Track Id"/>
 						<button>
-							<span class="white-c">Now</span>
+							<span class="white-c">Track Now</span>
 						</button>
 					</form>
 				</div>
 				
 			</div>	
-		</section>
+		</section> <!--  Banner section end here -->
 		<div class="transport-services"> <!-- Transport services here  -->
 			<div class="road-freight">
 				<div class="service-img">
@@ -157,8 +153,8 @@
 			<div class="container-fluid">
 				<div class="what-we-provide-section">
 					<div class="title">
-						<h3>What We Provide</h3>
-						<span>Add Your Caption Here</span>
+						<h3 class="text-left">What We Provide</h3>
+						<span class="sub-heading">Add Your Caption Here</span>
 					</div>
 					<div class="what-we-provide-part">
 						<div class="provider-cart">
@@ -205,7 +201,7 @@
 		<section class="portfolio"><!-- Portfolio section start here -->
 			<div class="container">
 				<div class="title-section">
-						<h3>Portfolio</h3>
+						<h3 class="text-left">Portfolio</h3>
 						<p class="par-text">
 							Subheadings Stand Out Because They Are Like Mini Titles. 
 							They Make Your Post Stand Out And Make It More Readable.
@@ -287,7 +283,7 @@
 				</div>
 			</div>
 		</section><!-- Portfolio section end here  -->
-		<section class="industry-solutions">
+		<section class="industry-solutions"><!-- Industry solutions section start here -->
 			<div class="container-fluid">
 				<div class="image-section">
 					<img src="images/industry_solutions.jpg" alt="Industry Solutions" title="Industry Solutions"/>
@@ -295,33 +291,91 @@
 				<div class="industry-content">
 					<div class="title">
 						<h3>Industry Solutions</h3>
-						<span>Add Your Caption Here</span>
+						<span class="sub-heading">Add Your Caption Here</span>
 					</div>
-					<div class="first-industry clear">
-						<div class="icon-section float-left">
-							<i class="fas fa-subway"></i>
+					<div class="industry-type">
+						<div class="first-industry clear">
+							<div class="icon-section float-left">
+								<i class="fas fa-subway"></i>
+							</div>
+							<div class="content float-left">
+								<h4>Takimata Sanctus</h4>
+								<p class="par-text">
+									Lo sea takimata sanctus est Lorem ipsum dolor sit amet.
+								</p>
+							</div>
 						</div>
-						<div class="content float-left">
-							<h4>Takimata Sanctus</h4>
-							<p class="par-text">
-								Lo sea takimata sanctus est Lorem ipsum dolor sit amet.
-							</p>
+						<div class="second-industry clear">
+							<div class="icon-section float-left">
+								<i class="fas fa-ship"></i>
+							</div>
+							<div class="content float-left">
+								<h4>Takimata Sanctus</h4>
+								<p class="par-text">
+									Lo sea takimata sanctus est Lorem ipsum dolor sit amet.
+								</p>
+							</div>
 						</div>
 					</div>
-					<div class="second-industry clear">
-						<div class="icon-section float-left">
-							<i class="fas fa-ship"></i>
+					<a href="#" class="button text-left">View More</a>
+				</div>
+			</div>
+		</section>
+		<section class="latest-post"><!-- Latest posts section start here -->
+			<div class="container">
+				<div class="title-section">
+						<h3>Latest posts </h3>
+						<p class="par-text">
+							Subheadings Stand Out Because They Are Like Mini Titles. 
+							They Make Your Post Stand Out And Make It More Readable.
+						</p>
+				</div>
+				<div class="latest-post-section">
+					<div class="blog-card">
+						<div class="img">
+							<img src="images/first.jpg" alt="First Blog" title="First Blog"/>
+						<h6>blog post</h6>
 						</div>
-						<div class="content float-left">
-							<h4>Takimata Sanctus</h4>
-							<p class="par-text">
-								Lo sea takimata sanctus est Lorem ipsum dolor sit amet.
+						<div class="content">
+							<h2>Cras ultricies ligula sed.</h2>
+							<p class="par-text text-left">
+								Lorem ipsum dolor sit amet,Stet clita kasd gubergren, 
+								sed diam voluptua. sed diam nonumy eirmod tempor invidunt ut.
 							</p>
+							<a href="#" class="button text-left">Read More</a>
+						</div>
+					</div>
+					<div class="blog-card">
+						<div class="img">
+							<img src="images/second.jpg" alt="Second Blog" title="Second Blog"/>
+							<h6>blog post</h6>
+						</div>
+						<div class="content">
+							<h2>magna porta au blandita.</h2>
+							<p class="par-text text-left">
+								Lorem ipsum dolor sit amet,Stet clita kasd gubergren, 
+								sed diam voluptua. sed diam nonumy eirmod tempor invidunt ut.
+							</p>
+							<a href="#" class="button text-left">Read More</a>
+						</div>
+					</div>
+					<div class="blog-card">
+						<div class="img">
+							<img src="images/third.jpg" alt="Third Blog" title="Third Blog"/>
+							<h6>blog post</h6>
+						</div>
+						<div class="content">
+							<h2>Cras ultricies ligula sed.</h2>
+							<p class="par-text text-left">
+								Lorem ipsum dolor sit amet,Stet clita kasd gubergren, 
+								sed diam voluptua. sed diam nonumy eirmod tempor invidunt ut.
+							</p>
+							<a href="#" class="button text-left">Read More</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section><!-- Latest posts section end here  -->
 		<footer id="footer"><!--  Footer section start here  -->
 			<div class="container">
 				<div class="footer-content">
@@ -388,8 +442,11 @@
 		</footer><!--  Footer section end here -->
 	</main><!--  Main tag close here -->
 </body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    </script>
 	<script src="js/navScript.js"></script>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 	<script>
 	  (adsbygoogle = window.adsbygoogle || []).push({
 	    google_ad_client: "ca-pub-1223087677749446",
