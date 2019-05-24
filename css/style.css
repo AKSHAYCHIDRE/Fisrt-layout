@@ -216,7 +216,7 @@ h6 {
   padding: 10px;
   display: none;
   background: #333;
-  max-width: 160px;
+  width: 170px;
   position:absolute;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -225,7 +225,6 @@ h6 {
           border-radius: 4px;
 }
 .nav-menu ul .sub-menu li {
-  width: 170px;
   margin: 10px 0;
   display: block;
   text-align: left;
