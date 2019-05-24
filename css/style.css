@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
   -webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	  -ms-box-sizing: border-box;
@@ -10,7 +11,7 @@
 }
 	
 .container {
-  max-width: 1140px;
+  max-width: 1130px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -45,12 +46,13 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   word-spacing: 4px;
+  line-height: 1.4; 
   letter-spacing: 1px;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
 }
 h3 {
-  color:  #333;
+  color:  #000;
   font-size:  36px;
   font-weight: 600;
   text-align: center;
@@ -62,7 +64,7 @@ h5 {
   color: #333;
   margin: 16px;
   font-size: 18px;
-  margin: 6px 0;
+  margin: 16px 0 0;
   font-weight: 600;
   text-align: center;
   letter-spacing: 1px;
@@ -106,7 +108,7 @@ h6 {
 .par-text {
   color: #999;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.9;
   text-align: center;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -176,10 +178,9 @@ h6 {
 \*------------------------------------*/
 
 #header {
-  padding: 15px 0;
+  padding: 19px 0 10px 0px;
   background-color: #fc636b;
 }
-
 .nav-menu {
   display: table;
   min-height: 40px;
@@ -190,7 +191,7 @@ h6 {
   vertical-align: middle;
 }
 .nav-menu ul > li {
-  margin: 0 15px;
+  margin: 0px 10px;
   display: inline-block;
 }
 .nav-menu li > a {
@@ -207,6 +208,9 @@ h6 {
 	  -ms-transition: 0.5s all;
 	   -o-transition: 0.5s all;
 	      transition: 0.5s all;
+}
+.nav-menu li > a span{
+  margin-left: 4px;
 }
 .nav-menu ul .sub-menu {
   padding: 10px;
@@ -226,6 +230,15 @@ h6 {
   display: block;
   text-align: left;
 
+}
+.nav-menu ul li:nth-of-type(5){
+  margin-right: 56px;
+}
+.nav-menu ul li:last-child {
+  margin-right: 15px;
+}
+.nav-menu ul li.inline {
+  margin-left: 12.5px;
 }
 .nav-menu ul .sub-menu li a {
   font-size:14px;
@@ -257,6 +270,7 @@ h6 {
 .nav-button {
   cursor: pointer;
   padding: 9px 20px;
+  letter-spacing: 1px;
   border: 1px solid #ffffff73;
   background-color: transparent;
   -webkit-border-radius: 4px;
@@ -289,12 +303,13 @@ h6 {
 		  background-size: cover;
 }
 .banner .banner-text {
-  padding: 215px 0;
+  padding: 205px 0 212px;
 }
 .banner .par-text {
   width: 50%;
   color: #fff;
-  margin: 5px 0 15px;
+  line-height: 2;
+  margin: 8px 0 15px;
 }
 .banner .from-fields {
   display: flex;
@@ -328,13 +343,13 @@ h6 {
 /* transpoart services css section start here */
 
 .transport-services {
-  width: 80%;
+  width: 72%;
   margin: 0 auto;
-  -webkit-transform: translate(0,-50px);
-	 -moz-transform: translate(0,-50px);
-	  -ms-transform: translate(0,-50px);
-	   -o-transform: translate(0,-50px);
-	      transform: translate(0,-50px);
+  -webkit-transform: translate(0,-42px);
+	 -moz-transform: translate(0,-42px);
+	  -ms-transform: translate(0,-42px);
+	   -o-transform: translate(0,-42px);
+	      transform: translate(0,-42px);
 }
 .transport-services .service-img {
   background-color: #fff;
@@ -368,10 +383,10 @@ h6 {
 
 .what-we-are {
   padding-bottom: 125px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .offer-section {
-  margin: 70px 0;
+  margin: 75px 0;
 }
 .what-we-are .subway-freight,
 .what-we-are .ship-freight,
@@ -421,6 +436,7 @@ h6 {
 }
 .what-we-provide-section .button {
   display: inline-block;
+  margin-top: 30px;
 }
 .what-we-provide-part .provider-cart {
   width: 49%;
@@ -434,7 +450,7 @@ h6 {
 \*------------------------------------*/
 
 .portfolio {
-  padding: 80px 0 160px;
+  padding: 90px 0 170px;
 }
 .portfolio-section {
   padding: 80px 0 0;
@@ -462,7 +478,8 @@ h6 {
 }
 .portfolio-section h5 {
   color: #fc636b;
-  margin-top: 3px;
+  margin: 4px 0 16px 0;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -475,7 +492,7 @@ h6 {
   padding-bottom: 50px;
 }
 .industry-solutions .industry-type {
-	margin:80px 0;
+	margin: 80px 0 85px 20px;
 }
 .industry-solutions .button {
 	margin: 0;
@@ -494,7 +511,7 @@ h6 {
 }
 .industry-solutions .industry-content {
   width: 49%;
-  padding-left: 45px;
+  padding-left: 40px;
   vertical-align: top;
   display: inline-block;
 } 
@@ -518,7 +535,7 @@ h6 {
 \*------------------------------------*/
 
 .latest-post {
-  padding: 60px 0 60px;
+  padding: 70px 0 60px;
 }
 .latest-post-section {
   padding: 60px 0 0;
@@ -529,6 +546,12 @@ h6 {
   transition: 0.5s all;
   border: 1px solid #00000020;
   display: inline-block;
+  background: #fff;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+      -ms-border-radius: 3px;
+       -o-border-radius: 3px;
+          border-radius: 3px;
 }
 .latest-post-section .blog-card:hover {
   -webkit-box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
@@ -541,6 +564,9 @@ h6 {
   width: 100%;
   position: relative;
   margin-bottom: -4px;
+}
+.latest-post-section .img:hover {
+  opacity: 0.8;
 }
 .latest-post-section .content {
   padding: 18px;
@@ -611,11 +637,14 @@ h6 {
 }
 #footer hr{
   width: 160px;
-  border-top: 1px solid rgba(255, 255, 255, 0);
+  height: 1px;
+  background: #ffffff82;
+  border: 0px;
 }
 
 #footer .par-text {
   color: #fff;
+  font-size: 15px;
   text-align: left;
 }
 #footer ul {
@@ -665,7 +694,13 @@ h6 {
 
 @media(max-width:1169px) {
 
-	/* industry section css  here */
+	/* Header section */
+
+  .nav-menu ul li:nth-of-type(5){
+    margin-right: 0;
+  }
+
+  /* industry section css  here */
 	
 	.industry-solutions .industry-type {
       margin: 30px 0;
@@ -711,7 +746,7 @@ h6 {
 	  text-align: center;
 	}
 	header .menu-container ul li {
-	  margin: 0 8px;
+	  margin: 0 5px;
 	}
 	
 	/* banner section css here */
